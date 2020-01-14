@@ -1,6 +1,6 @@
-_(Udacity: Data Engineering Nano Degree) | camoeiras@live.com | 2019-06-09_
+camoeiras@live.com | 2019-06-09_
 
-# PROJECT-4: Data Lake
+# Data Lake
 
 ## Quick start
 
