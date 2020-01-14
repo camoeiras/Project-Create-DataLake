@@ -1,4 +1,4 @@
-camoeiras@live.com | 2019-06-09_
+camoeiras@live.com | 2020-01-08_
 
 # Data Lake
 
@@ -24,11 +24,11 @@ After installing python3 + Apache Spark (pyspark) libraries and dependencies, ru
 
 This Project-4 handles data of a music streaming startup, Sparkify. Data set is a set of files in JSON format stored in AWS S3 buckets and contains two parts:
 
-* **s3://udacity-dend/song_data**: static data about artists and songs
+* **s3://dev-dend/song_data**: static data about artists and songs
   Song-data example:
   `{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}`
 
-* **s3://udacity-dend/log_data**: event data of service usage e.g. who listened what song, when, where, and with which client
+* **s3://dev-dend/log_data**: event data of service usage e.g. who listened what song, when, where, and with which client
   ![Log-data example (log-data/2018/11/2018-11-12-events.json)](./Project4-logdata-20190609.png)
 
 Below, some figures about the example data set (results after running the etl.py):
