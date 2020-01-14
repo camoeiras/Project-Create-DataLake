@@ -22,7 +22,7 @@ After installing python3 + Apache Spark (pyspark) libraries and dependencies, ru
 
 ## Overview
 
-This Project-4 handles data of a music streaming startup, Sparkify. Data set is a set of files in JSON format stored in AWS S3 buckets and contains two parts:
+This project handles data of a music streaming startup, Sparkify. Data set is a set of files in JSON format stored in AWS S3 buckets and contains two parts:
 
 * **s3://dev-dend/song_data**: static data about artists and songs
   Song-data example:
@@ -36,7 +36,7 @@ Below, some figures about the example data set (results after running the etl.py
 * s3://dev-dend/song_data: 14897 files
 * s3://dev-dend/log_data: 31 files
 
-Project builds an ETL pipeline (Extract, Transform, Load) to Extract data from JSON files stored in AWS S3, process the data with Apache Spark, and write the data back to AWS S3 as Spark parquet files. As technologies, Project-4 uses python, AWS S3 and Apache Spark.
+Project builds an ETL pipeline (Extract, Transform, Load) to Extract data from JSON files stored in AWS S3, process the data with Apache Spark, and write the data back to AWS S3 as Spark parquet files. As technologies, project uses python, AWS S3 and Apache Spark.
 
 As a local run on laptop, pipeline takes around 1min 40sec to execute with the given test data set.
 
@@ -191,4 +191,4 @@ FROM songplays_table;
 
 ## Summary
 
-Project-4 provides customer startup Sparkify tools to analyse their service data in a flexible way and help them answer their key business questions like "Who listened which song and when?"
+This project provides customer startup Sparkify tools to analyse their service data in a flexible way and help them answer their key business questions like "Who listened which song and when?"
