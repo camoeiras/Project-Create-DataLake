@@ -59,10 +59,6 @@ NOTE: ETL script has been tested with limited input data (stored in S3) due to v
 Sparkify analytics database (called here sparkifydb) schema has a star design. Start design means that it has one Fact Table having business data, and supporting Dimension Tables. Star DB design is maybe the most common schema used in ETL pipelines since it separates Dimension data into their own tables in a clean way and collects business critical data into the Fact table allowing flexible queries.
 The Fact Table answers one of the key questions: what songs users are listening to. DB schema is the following:
 
-![SparkifyDB schema as ER Diagram](./ERD-20190609v2.png)
-
-_*SparkifyDB schema as ER Diagram.*_
-
 ### Purpose of the database and ETL pipeline
 
 In context of Sparkify, this Data Lake based ETL solution provides very elastic way of processing data. As pros, we can mention the following:
