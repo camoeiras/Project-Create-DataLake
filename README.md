@@ -28,8 +28,7 @@ This project handles data of a music streaming startup, Sparkify. Data set is a 
   Song-data example:
   `{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}`
 
-* **s3://dev-dend/log_data**: event data of service usage e.g. who listened what song, when, where, and with which client
-  ![Log-data example (log-data/2018/11/2018-11-12-events.json)](./Project4-logdata-20190609.png)
+* **s3://dev-dend/log_data**: event data of service usage e.g. who listened what song, when, where, and with which client(./Project4-logdata-20190609.png)
 
 Below, some figures about the example data set (results after running the etl.py):
 
